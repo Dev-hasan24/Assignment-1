@@ -65,7 +65,7 @@ nav{
     padding: 0px 160px;
     margin-top: 20px;
 }
-.pillars-title{
+.pillars-title, .news-title {
     font-size: 40px;
     font-weight: bold;
     color: #0e0e0e;
@@ -96,12 +96,26 @@ nav{
     gap: 24px;
     align-items: center;
 }
-.vision-card{
+.vision-description, .news-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.v-card{
     display: block;
-    background-color: rgba(84, 144, 245, 0.2);
-    width: 410px;
-    height: 325px;
+    justify-content: space-around;
+    width: 100%;
+    padding: 32px;
     border-radius: 16px;
+}
+.v-card-bg1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.v-card-bg2{
+    background-color: rgba(198, 228, 214, 1);
+}
+.v-card-bg3{
+    background-color: rgba(247, 235, 207, 1);
 }
 .vision-btn{
     font-size: 16px;
@@ -112,4 +126,94 @@ nav{
     height: 41px;
     width: 122px;
     color: white;
+}
+.vision{
+    display: block;
+}
+.vision-cards{
+    display: flex;
+    padding: 32px 160px 32px 160px ;
+    gap: 24px;
+}
+.section-header{
+    padding: 80px 160px 32px 160px;
+}
+.quote-section{
+    background-image: url("../Images/quote-bg.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: 24px 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin: 32px 160px 80px 160px;
+    padding: 48px 24px;
+}
+.quote-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 400;
+}
+.quote-title{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: bold;
+}
+.quote-subtitle{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+    font-weight: 400;
+}
+.satelite-section{
+    padding: 20px 160px 24px 160px;
+}
+.news-section{
+    display: flex;
+    gap: 32px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    border-style: none;
+    margin-bottom: 24px;
+}
+.news-card-2{
+margin-left: 56px;
+}
+.news-description{
+    margin-bottom: 32px;
+}
+.satelite-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 56px 48px 12px 0px;
+}
+.date-time{
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+    margin: 12px 48px 12px 0px;
+}
+.satelite-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+.satelite-btn{
+    background-color: #006A50;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    height: 48px;
+    width: 140px;
+    margin-bottom: 56px;
+}
+.satelite-img{
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
+    margin: 48px;
 }
